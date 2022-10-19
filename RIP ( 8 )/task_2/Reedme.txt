@@ -1,0 +1,6 @@
+Project: 'RIP_Task_2' 
+Author: Fady Moheb <fmoheb6@gmail.com>
+Task: connect 2.2.2.2 network with f1/0 one time and f0/0 other 
+---------------------------------------------------------------------------------------RIP----------------------------------------------------------------------------------------
+
+NOTE: you can change the ip address , mac address , caples and make your own toplogy it's only for education Fell free when use it 

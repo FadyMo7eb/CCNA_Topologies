@@ -1,0 +1,13 @@
+Author: Fady Moheb <fmoheb6@gmail.com>
+Task: what is the username and the password of the router ? 
+---------------------------------------------------------------------------------------configration_register----------------------------------------------------------------------------------------
+
+NOTE : this lab should be in real router or in packet_tracer no GNS 
+NOTE: you can change the ip address , mac address , caples and make your own toplogy it's only for education Fell free when use it 
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+soulition: Password recovery in Packet Tracer router Turn router off Turn router back on, then switch to CLI tab During the image load, pres & hold Ctrl+Shift+F6+C to interrupt the boot sequence
+at the ROMMON > prompt "confreg 0x2142" (without quotes) Follow steps to recover password Note, instead of turning router off then back on, go to Priv Exec
+mode (enable), type "reload", then Ctrl+Shift+F6+C to interrupt the boot sequence.
+

@@ -1,0 +1,9 @@
+Author: Fady Moheb <fmoheb6@gmail.com>
+Task: connect 2 Routers with DTE/DCE cable and put clock_rate on DCE one !
+---------------------------------------------------------------------------------------configration_register----------------------------------------------------------------------------------------
+
+NOTE : this lab should be in real router or in packet_tracer no GNS 
+NOTE : you can change the ip address , mac address , caples and make your own toplogy it's only for education Fell free when use it 
+NOTE : R1 => 10.0.0.1 255.255.255.252
+       R2 => 10.0.0.2 255.255.255.252
+

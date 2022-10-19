@@ -1,0 +1,33 @@
+Project: 'RIP_Task_1' 
+Author: Fady Moheb <fmoheb6@gmail.com>
+Task: connect with R1 to 2.2.2.2 network with rip time and then shut donw the fastethernet and connect it with static routing with serial cable 
+---------------------------------------------------------------------------------------RIP----------------------------------------------------------------------------------------
+
+important_to_read: 
+
+Why do we always use serial links between two routers, even though we have fast ethernet ports ?
+
+***
+ We mostly use serial links between multiples routers to propagate config data because these links support daisy chaining and can easily propagate commands over
+
+and over without much configuration. Data over a serial link does not needs extensive addressing
+
+neither does it carries a considerable overhead, a very good thing when we're trying to propagate config data over a large pool of routers/switches.
+
+A part of it also has to do with the lineage: earlier routers had serial port linkages and to maintain compatibility, most new routers have serial ports too.
+
+If we were to use Ethernet ports to propagate commands, we would be looking at tedious switching and routing, error checking mechanisms, considerable overhead and unnecessary broadcasts.
+
+In modern routers, a serial port is often modified to look like a USB or an RJ-45 port, though it actually is a serial port
+
+However, serial links to carry IP packets are fairly uncommon though you may find one if you're using a T1/ISDN line, or between old DCE-DTE links.. 
+
+Serial ports also support TDM (Time-division multiplexing) which makes it possible to daisy chain 
+
+WAN links to distribute incoming bandwidth between various routers. Serial links are slow and are highly prone to transmission errors which is why we've switched to Fast/Gigabit Ethernet links nowadays.
+
+***
+
+Note: we will use c3725 model cuse c7200 not support the wic interfaces
+
+NOTE: you can change the ip address , mac address , caples and make your own toplogy it's only for education Fell free when use it 
